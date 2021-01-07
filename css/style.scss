@@ -99,3 +99,7 @@ $black: #000000;
         url("/../fonts/platform_bold/platform_bold.woff") format("woff"),
         url("/../fonts/platform_bold/platform_bold.ttf") format("truetype");
 }
+
+html {
+	background-color: $paleblue;
+}
