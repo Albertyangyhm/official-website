@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: "Circular Std Bold";
-  src: url("fonts/circular_bold/circular_bold.woff2") format("woff2"), url("fonts/circular_bold/circular_bold.woff") format("woff"), url("fonts/circular_bold/circular_bold.otf") format("opentype"), url("fonts/circular_bold/circular_bold.ttf") format("truetype");
+  src: url("circular_bold.woff2") format("woff2"), url("circular_bold.woff") format("woff"), url("circular_bold.otf") format("opentype"), url("circular_bold.ttf") format("truetype");
 }
 
 
