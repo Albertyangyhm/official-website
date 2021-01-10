@@ -82,6 +82,15 @@ html {
   background-color: #f7f7f7;
 }
 
+body {
+    background: #f9f9f9 url("background.jpg");
+    color: #222;
+
+    font: 15px/24px "Bitstream Vera Sans Mono", "Anonymous Pro", "Consolas", monospace;
+    text-shadow: 0 1px 1px rgba(0,0,0,.25);
+    letter-spacing: -0.01em;
+}
+
 .flexbox-container {
   display: flex;
   justify-content: space-between;
@@ -138,7 +147,7 @@ a {
 }
 
 #greetings-heading, .headline {
-  font-family: "Circular Std Bold";
+  /*font-family: "Circular Std Bold";*/
   font-weight: 600;
   font-size: 2.5rem;
   color: #011434;
@@ -147,7 +156,7 @@ a {
 #greetings-text {
   margin-top: 20px;
   margin-bottom: 10vh;
-  font-family: "Crimson Text", serif;
+  /*font-family: "Crimson Text", serif;*/
   color: #011434;
   font-size: 1.5rem;
 }
