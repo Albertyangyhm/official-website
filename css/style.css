@@ -1,5 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("/../fonts/circular_book/circular_book.woff2") format("woff2"), url("/../fonts/circular_book/circular_book.woff") format("woff"), url("/../fonts/circular_book/circular_book.otf") format("opentype"), url("/../fonts/circular_book/circular_book.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Circular Std Book Italic";
+  src: url("/../fonts/circular_book_italic/circular_book_italic.woff2") format("woff2"), url("/../fonts/circular_book_italic/circular_book_italic.woff") format("woff"), url("/../fonts/circular_book_italic/circular_book_italic.otf") format("opentype"), url("/../fonts/circular_book_italic/circular_book_italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Circular Std Medium";
+  src: url("/../fonts/circular_medium/circular_medium.woff2") format("woff2"), url("/../fonts/circular_medium/circular_medium.woff") format("woff"), url("/../fonts/circular_medium/circular_medium.otf") format("opentype"), url("/../fonts/circular_medium/circular_medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Circular Std Medium Italic";
+  src: url("/../fonts/circular_medium_italic/circular_medium_italic.woff2") format("woff2"), url("/../fonts/circular_medium_italic/circular_medium_italic.woff") format("woff"), url("/../fonts/circular_medium_italic/circular_medium_italic.otf") format("opentype"), url("/../fonts/circular_medium_italic/circular_medium_italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Circular Std Black";
+  src: url("/../fonts/circular_black/circular_black.woff2") format("woff2"), url("/../fonts/circular_black/circular_black.woff") format("woff"), url("/../fonts/circular_black/circular_black.otf") format("opentype"), url("/../fonts/circular_black/circular_black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Circular Std Black Italic";
+  src: url("/../fonts/circular_black_italic/circular_black_italic.woff2") format("woff2"), url("/../fonts/circular_black_italic/circular_black_italic.woff") format("woff"), url("/../fonts/circular_black_italic/circular_black_italic.otf") format("opentype"), url("/../fonts/circular_black_italic/circular_black_italic.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Circular Std Bold";
+  src: url("fonts/circular_bold/circular_bold.woff2") format("woff2"), url("fonts/circular_bold/circular_bold.woff") format("woff"), url("fonts/circular_bold/circular_bold.otf") format("opentype"), url("fonts/circular_bold/circular_bold.ttf") format("truetype");
+}
+
+
+
+@font-face {
+  font-family: "Circular Std Black Italic";
+  src: url("/../fonts/circular_bold_italic/circular_bold_italic.woff2") format("woff2"), url("/../fonts/circular_bold_italic/circular_bold_italic.woff") format("woff"), url("/../fonts/circular_bold_italic/circular_bold_italic.otf") format("opentype"), url("/../fonts/circular_bold_italic/circular_bold_italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Platform Regular";
+  src: url("/../fonts/platform_regular/platform_regular.eot");
+  src: url("/../fonts/platform_regular/platform_regular.eot?#iefix") format("embedded-opentype"), url("/../fonts/platform_regular/platform_regular.woff2") format("woff2"), url("/../fonts/platform_regular/platform_regular.woff") format("woff"), url("/../fonts/platform_regular/platform_regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Platform Medium";
+  src: url("/../fonts/platform_medium/platform_medium.eot");
+  src: url("/../fonts/platform_medium/platform_medium.eot?#iefix") format("embedded-opentype"), url("/../fonts/platform_medium/platform_medium.woff2") format("woff2"), url("/../fonts/platform_medium/platform_medium.woff") format("woff"), url("/../fonts/platform_medium/platform_medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Platform Bold";
+  src: url("/../fonts/platform_bold/platform_bold.eot");
+  src: url("/../fonts/platform_bold/platform_bold.eot?#iefix") format("embedded-opentype"), url("/../fonts/platform_bold/platform_bold.woff2") format("woff2"), url("/../fonts/platform_bold/platform_bold.woff") format("woff"), url("/../fonts/platform_bold/platform_bold.ttf") format("truetype");
+}
+
 .img-card {
   height: 450px;
   background-color: white;
@@ -87,7 +140,7 @@ a {
 }
 
 #greetings-heading, .headline {
-  font-family: "Inter";
+  font-family: "Circular Std Bold";
   font-weight: 600;
   font-size: 2.5rem;
   color: #011434;
@@ -96,9 +149,9 @@ a {
 #greetings-text {
   margin-top: 20px;
   margin-bottom: 10vh;
-  font-family: "Inter", serif;
+  font-family: "Crimson Text", serif;
   color: #011434;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 #signature {
