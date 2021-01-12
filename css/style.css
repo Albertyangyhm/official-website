@@ -3,7 +3,7 @@
 
 
 html {
-  background: url('a.jpg.png') no-repeat center center fixed;
+  background: url('a.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,6 +33,7 @@ ul.content {
     width: 500px;
     margin-top: -62px;
 }
+
 
 ul li {
     padding: 10px 0;
@@ -85,7 +86,7 @@ a:hover {
     }
     ul.content {
         width: 80%;
-        top: 80%;
+        top: 20%;
         left: 10%;
         min-width: 290px;
     }
