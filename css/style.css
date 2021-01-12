@@ -28,10 +28,9 @@ body {
 ul.content {
     list-style: none;
     position: absolute;
-    left: 130px;
+    left: 5%;
     top: 40%;
     width: 500px;
-    margin-top: -62px;
 }
 
 ul li {
@@ -72,17 +71,25 @@ a:hover {
 @media (max-width: 550px) {
     body {
         font-size: 15px;
-        min-height: 530px;
+        /*min-height: 530px;*/
     }
+    /*
     ul.content {
         width: 80%;
         top: 20%;
         left: 10%;
         min-width: 290px;
+    }*/
+
+    html {
+      background: url('../images/qwqwq.png') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
 
 }
-
 
 
 
@@ -112,19 +119,17 @@ a:hover {
 }
 
 .img-card-text-description, .img-card-text-title, .img-card-item-type {
+  position: absolute;
   font-size: 1.1rem;
   letter-spacing: -0.5px;
   line-height: 1.4rem;
 }
 
-.page-gap, .footer-flex, hr.f, .section-wrapper, #greetings-wrapper, .flexbox-container {
+.page-gap, .footer-flex, hr.f, #greetings-wrapper, .flexbox-container {
+  position: absolute;
   margin-top: 30vw;
   margin-left: 8.1vw;
   margin-right: 50vw;
-}
-
-html {
-  background-color: #f7f7f7;
 }
 
 .flexbox-container {
@@ -200,14 +205,14 @@ html {
   text-transform: uppercase;
   color: #011434;
 }
-
+/*
 @media (max-width: 880px) {
   #greetings-wrapper {
     margin-top: 15vh;
     width: 70vw;
   }
 }
-
+*/
 
 
 
@@ -217,6 +222,11 @@ html {
 
 .section-wrapper {
   color: #011434;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  width: 45%;
+  margin-top: -62px;
 }
 
 .division-line {
