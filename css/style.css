@@ -71,15 +71,15 @@ a:hover {
 @media (max-width: 550px) {
     body {
         font-size: 15px;
-        /*min-height: 530px;*/
+        min-height: 530px;
     }
-    /*
+
     ul.content {
         width: 80%;
         top: 20%;
         left: 10%;
         min-width: 290px;
-    }*/
+    }
 
     html {
       background: url('../images/qwqwq.png') no-repeat center center fixed;
@@ -90,6 +90,7 @@ a:hover {
     }
 
 }
+
 
 
 
