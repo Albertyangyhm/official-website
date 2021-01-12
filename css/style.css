@@ -75,10 +75,10 @@ a:hover {
     }
 
     ul.content {
-        width: 80%;
+        width: 80vw;
         top: 20%;
         left: 10%;
-        min-width: 290px;
+        /*min-width: 290px;*/
     }
 
     html {
@@ -125,13 +125,14 @@ a:hover {
   letter-spacing: -0.5px;
   line-height: 1.4rem;
 }
-
+/*
 .page-gap, .footer-flex, hr.f, #greetings-wrapper, .flexbox-container {
   position: absolute;
   margin-top: 30vw;
   margin-left: 8.1vw;
   margin-right: 50vw;
 }
+*/
 
 .flexbox-container {
   display: flex;
