@@ -80,12 +80,12 @@ a:hover {
   color: #011434;
   position: absolute;
   left: 50%;
+  right: 10%;
   top: 10%;
-  width: 45%;
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
     body {
         font-size: 15px;
         min-height: 530px;
