@@ -3,7 +3,7 @@
 
 
 html {
-  background: url('../images/aaa.png') no-repeat center center fixed;
+  background: url('../images/aaiiia.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,7 +92,7 @@ a:hover {
     }
 
     ul.content {
-      position: absolute;
+        position: absolute;
         width: 80vw;
         top: 20%;
         left: 10%;
@@ -100,7 +100,7 @@ a:hover {
     }
 
     ul.links {
-        position: absolute;
+      position: absolute;
       width: 80vw;
       top: 36%;
       left: 10%;
