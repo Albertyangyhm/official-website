@@ -1,14 +1,14 @@
 /* C to the S to the S */
 @import "keyframe.css";
 
-/*
+
 html {
-  background: url('../images/aaiiia.png') no-repeat center center fixed;
+  background: url('../images/back.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 * {
     margin: 0;
@@ -18,10 +18,9 @@ html {
 }
 
 body {
-    color: #222;
+    color: #ffffff;
+    font: 15px/24px "Arial", "Anonymous Pro", "Consolas", monospace;
 
-    font: 15px/24px "Bitstream Vera Sans Mono", "Anonymous Pro", "Consolas", monospace;
-    text-shadow: 0 1px 1px rgba(0,0,0,.25);
     letter-spacing: -0.01em;
 }
 
@@ -77,6 +76,7 @@ a:hover {
 }
 
 .section-wrapper {
+
   color: #011434;
   position: absolute;
   left: 50%;
@@ -123,7 +123,6 @@ a:hover {
 
 .img-card {
   height: 450px;
-  background-color: white;
 }
 
 .img-card {
@@ -137,6 +136,8 @@ a:hover {
 }
 
 .img-card-text-description, .img-card-text-title, .img-card-item-type {
+  color:#222;
+  font: 15px/24px "Arial", "Anonymous Pro", "Consolas", monospace;
   font-size: 1.1rem;
   letter-spacing: -0.5px;
   line-height: 1.4rem;
@@ -149,6 +150,7 @@ a:hover {
 
 
 .flexbox-container {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -320,6 +322,7 @@ hr.f {
 }
 
 .projects-wrapper {
+  opacity: 0.9;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
@@ -335,7 +338,9 @@ hr.f {
   min-height: 550px;
 }
 
+
 .img-card-text-wrapper {
+
   margin: 25px;
 }
 
