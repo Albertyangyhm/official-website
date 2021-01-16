@@ -1,14 +1,14 @@
 /* C to the S to the S */
 @import "keyframe.css";
 
-
+/*
 html {
   background: url('../images/aaiiia.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 * {
     margin: 0;
