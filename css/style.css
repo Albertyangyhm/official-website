@@ -25,6 +25,7 @@ body {
 }
 
 ul.content {
+  font-size: 20px;
     list-style: none;
     position: fixed;
     left: 5%;
@@ -33,6 +34,7 @@ ul.content {
 }
 
 ul.links {
+  font-size: 20px;
     list-style: none;
     position: fixed;
     left: 5%;
@@ -45,7 +47,7 @@ ul li {
 }
 
 #first-line {
-    font-size: 22px;
+    font-size: 30px;
 }
 
 a {
