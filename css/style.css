@@ -3,7 +3,7 @@
 
 
 html {
-  background: url('../images/a.png') no-repeat center center fixed;
+  background: url('../images/aaa.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,9 +27,17 @@ body {
 
 ul.content {
     list-style: none;
-    position: absolute;
+    position: fixed;
     left: 5%;
     top: 40%;
+    width: 45%;
+}
+
+ul.links {
+    list-style: none;
+    position: fixed;
+    left: 5%;
+    top: 54%;
     width: 45%;
 }
 
@@ -68,37 +76,45 @@ a:hover {
     animation: flick 1s infinite;
 }
 
-@media (max-width: 800px) {
+.section-wrapper {
+  color: #011434;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 45%;
+
+}
+
+@media (max-width: 880px) {
     body {
         font-size: 15px;
         min-height: 530px;
     }
 
     ul.content {
+      position: absolute;
         width: 80vw;
         top: 20%;
         left: 10%;
         min-width: 290px;
     }
 
-    html {
-      background: url('../images/qwqwq.png') no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+    ul.links {
+        position: absolute;
+      width: 80vw;
+      top: 36%;
+      left: 10%;
+      min-width: 290px;
+    }
+
+    .section-wrapper {
+      color: #011434;
+      left: 10%;
+      top: 50%;
+
     }
 
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -120,19 +136,16 @@ a:hover {
 }
 
 .img-card-text-description, .img-card-text-title, .img-card-item-type {
-  position: absolute;
   font-size: 1.1rem;
   letter-spacing: -0.5px;
   line-height: 1.4rem;
 }
-/*
+
 .page-gap, .footer-flex, hr.f, #greetings-wrapper, .flexbox-container {
-  position: absolute;
-  margin-top: 30vw;
-  margin-left: 8.1vw;
-  margin-right: 50vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
-*/
+
 
 .flexbox-container {
   display: flex;
@@ -148,6 +161,7 @@ a:hover {
 }
 
 .navbar-text {
+
   margin-left: 1.7vw;
   margin-top: 3px;
   color: #011434;
@@ -186,13 +200,11 @@ a:hover {
 #greetings-heading, .headline {
   font-weight: 600;
   font-size: 2.5rem;
-  color: #011434;
 }
 
 #greetings-text {
   margin-top: 20px;
   margin-bottom: 10vh;
-  color: #011434;
   font-size: 1.5rem;
 }
 
@@ -205,30 +217,6 @@ a:hover {
   text-decoration: underline;
   font-size: 90%;
   text-transform: uppercase;
-  color: #011434;
-}
-/*
-@media (max-width: 880px) {
-  #greetings-wrapper {
-    margin-top: 15vh;
-    width: 70vw;
-  }
-}
-*/
-
-
-
-
-
-
-
-.section-wrapper {
-  color: #011434;
-  position: absolute;
-  left: 5%;
-  top: 75%;
-  width: 45%;
-  margin-top: -62px;
 }
 
 .division-line {
@@ -295,7 +283,6 @@ hr.f {
   margin-left: 0;
   margin-right: 1.2vw;
   margin-top: 3px;
-  color: #011434;
 }
 
 #footer-text {
@@ -367,8 +354,6 @@ hr.f {
   margin-bottom: 10px;
 }
 
-.img-card-text-title {
-}
 
 .img-card-text-description {
   font-size: 1rem;
@@ -407,12 +392,10 @@ hr.f {
   text-transform: uppercase;
   margin-bottom: 1.5vh;
   margin-top: 5vh;
-  color: #011434;
 }
 
 .paragraph {
   font-size: 1.25rem;
-  color: #011434;
   position: relative;
   z-index: 2;
   margin-bottom: 1vh;
@@ -467,7 +450,6 @@ img {
 
 .external-button {
   background-color: transparent;
-  color: #011434;
   border: 2px solid #011434;
 }
 
@@ -498,7 +480,6 @@ img {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: #011434;
   color: white;
   padding: 15px 20px 13px;
   text-transform: uppercase;
