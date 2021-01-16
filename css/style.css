@@ -146,8 +146,8 @@ a:hover {
 }
 
 .page-gap, .footer-flex, hr.f, #greetings-wrapper, .flexbox-container {
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
