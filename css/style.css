@@ -78,7 +78,7 @@ a:hover {
         width: 80vw;
         top: 20%;
         left: 10%;
-        /*min-width: 290px;*/
+        min-width: 290px;
     }
 
     html {
