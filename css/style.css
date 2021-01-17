@@ -8,7 +8,7 @@
 
 
 html {
-  background: url('../images/back.jpg') no-repeat center center fixed;
+  background: url('../images/lowres.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,6 +30,7 @@ body {
 
     letter-spacing: -0.01em;*/
 }
+
 
 ul.content {
   font-size: 20px;
@@ -123,6 +124,8 @@ a:hover {
       top: 50%;
 
     }
+
+    div.background-fixed {background-attachment: scroll !important; }
 
 }
 
