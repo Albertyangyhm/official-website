@@ -1,6 +1,11 @@
 /* C to the S to the S */
 @import "keyframe.css";
 
+@font-face {
+  font-family: "HelveticaNeue Light";
+  src: url(".../fonts/HelveticaNeue Light.ttf") format("truetype");
+}
+
 
 html {
   background: url('../images/back.png') no-repeat center center fixed;
@@ -18,8 +23,10 @@ html {
 }
 
 body {
+  font-family: "HelveticaNeue Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
     color: #ffffff;
-    font: 15px/24px "Arial", "Anonymous Pro", "Consolas", monospace;
+    /*font: 15px/24px "Arial", "Anonymous Pro", "Consolas", monospace;*/
 
     letter-spacing: -0.01em;
 }
@@ -98,7 +105,6 @@ a:hover {
         width: 80vw;
         top: 20%;
         left: 10%;
-        min-width: 290px;
     }
 
     ul.links {
@@ -106,7 +112,6 @@ a:hover {
       width: 80vw;
       top: 40%;
       left: 10%;
-      min-width: 290px;
     }
 
     .section-wrapper {
@@ -238,7 +243,6 @@ a:hover {
 .h1 {
   font-size: 1.6rem;
   font-weight: 800;
-  width: 260px;
 }
 
 .subject-title {
@@ -327,7 +331,7 @@ hr.f {
   opacity: 0.9;
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   column-gap: 20px;
   row-gap: 20px;
 }
@@ -347,7 +351,6 @@ hr.f {
 }
 
 .img-card-image-wrapper {
-  width: 393.33px;
   height: 200px;
   overflow: hidden;
 }
