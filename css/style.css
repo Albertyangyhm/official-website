@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "HelveticaNeue Light";
-  src: url(".../fonts/HelveticaNeue Light.ttf") format("truetype");
+  src: url("HelveticaNeue Light.ttf") format("truetype");
 }
 
 
@@ -26,9 +26,9 @@ body {
   font-family: "HelveticaNeue Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
     color: #ffffff;
-    /*font: 15px/24px "Arial", "Anonymous Pro", "Consolas", monospace;*/
+    /*font: 15px/24px "Arial", "Anonymous Pro", "Consolas", monospace;
 
-    letter-spacing: -0.01em;
+    letter-spacing: -0.01em;*/
 }
 
 ul.content {
@@ -45,7 +45,7 @@ ul.links {
     list-style: none;
     position: fixed;
     left: 5%;
-    top: 54%;
+    top: 59%;
     width: 45%;
 }
 
@@ -64,9 +64,11 @@ a {
     border-bottom: 1px dotted #ccc;
     background: #111;
     color: #fff;
+    opacity: 0.7;
 }
 
 a:hover {
+  opacity: 1;
     background: #84a403;
     color: #fff;
 }
@@ -144,17 +146,19 @@ a:hover {
 
 .img-card-text-description, .img-card-text-title, .img-card-item-type {
   color:#222;
-  font: 15px/24px "Arial", "Anonymous Pro", "Consolas", monospace;
+  font-family: "HelveticaNeue Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 1.1rem;
   letter-spacing: -0.5px;
   line-height: 1.4rem;
 }
 
+/*
 .page-gap, .footer-flex, hr.f, #greetings-wrapper, .flexbox-container {
   margin-left: 10%;
   margin-right: 10%;
 }
-
+*/
 
 .flexbox-container {
 
