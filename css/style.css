@@ -98,9 +98,6 @@ a:hover {
 }
 
 @media (max-width: 900px) {
-    html{
-      background-position: 10% 0%;
-    }
     body {
         font-size: 15px;
         min-height: 530px;
@@ -354,8 +351,7 @@ hr.f {
 
 
 .img-card-text-wrapper {
-
-  margin: 25px;
+  margin: 20px;
 }
 
 .img-card-image-wrapper {
@@ -370,13 +366,13 @@ hr.f {
 
 .img-card-item-type {
   font-size: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 
 
 .img-card-text-description {
-  font-size: 1rem;
-  margin-top: 1rem;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
 }
 
 .image-card-link-wrapper {
