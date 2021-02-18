@@ -132,6 +132,7 @@ a:hover {
 
 
 .img-card {
+  border-radius: 15px;
   height: 450px;
 }
 
@@ -139,10 +140,9 @@ a:hover {
   transition: transform 0.15s;
 }
 .img-card:hover {
-  transform: translate(0px, -3px);
-  -webkit-box-shadow: 0px 2px 7px 1px rgba(168, 168, 168, 0.23);
-  -moz-box-shadow: 0px 2px 7px 1px rgba(168, 168, 168, 0.23);
-  box-shadow: 0px 2px 7px 1px rgba(168, 168, 168, 0.23);
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }
 
 .img-card-text-description, .img-card-text-title, .img-card-item-type {
@@ -183,9 +183,7 @@ a:hover {
   font-size: 1rem;
 }
 
-.navbar-text:hover {
-  color: grey;
-}
+
 
 #github-icon {
   height: 1.6rem;
@@ -333,7 +331,6 @@ hr.f {
 }
 
 .projects-wrapper {
-  opacity: 0.9;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -460,10 +457,7 @@ img {
   border: 2px solid #011434;
 }
 
-.external-button:hover {
-  background-color: #011434;
-  color: white;
-}
+
 
 .image-w-title-wrapper {
   position: relative;
